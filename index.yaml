@@ -1,73 +1,9 @@
 apiVersion: v1
 entries:
-  wiki:
-  - apiVersion: v2
-    appVersion: latest
-    created: "2021-03-04T17:31:53.6854429-06:00"
-    dependencies:
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 8.10.14
-    description: The most powerful and extensible open source Wiki software.
-    digest: ce2111d398dfa79c8d35b0a34ca1c41d941e41b9ff05a6915b5bd1441fd9e55e
-    home: https://wiki.js.org
-    icon: https://github.com/Requarks/wiki/raw/master/client/static/favicons/android-chrome-192x192.png
-    keywords:
-    - wiki
-    - documentation
-    - knowledge base
-    - docs
-    - reference
-    - editor
-    maintainers:
-    - email: dsingh@epochml.org
-      name: Dev Singh
-      url: https://students.imsa.edu/~dsingh
-    name: wiki
-    sources:
-    - https://github.com/Requarks/wiki
-    type: application
-    urls:
-    - https://epochml.org/helm/wiki-2.1.1.tgz
-    version: 2.1.1
-  - apiVersion: v2
-    appVersion: latest
-    created: "2021-03-04T17:31:53.6828994-06:00"
-    dependencies:
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 8.10.14
-    description: The most powerful and extensible open source Wiki software.
-    digest: b85d0a2568f2812a40d685681a27243379ff446b5899ba2b26dab78af8347d4e
-    home: https://wiki.js.org
-    icon: https://github.com/Requarks/wiki/raw/master/client/static/favicons/android-chrome-192x192.png
-    keywords:
-    - wiki
-    - documentation
-    - knowledge base
-    - docs
-    - reference
-    - editor
-    maintainers:
-    - email: github@ngpixel.com
-      name: Nicolas Giard
-      url: https://github.com/NGPixel
-    - email: james@fuziontech.net
-      name: James Greenhill
-      url: https://github.com/fuziontech
-    name: wiki
-    sources:
-    - https://github.com/Requarks/wiki
-    type: application
-    urls:
-    - https://epochml.org/helm/wiki-2.1.0.tgz
-    version: 2.1.0
   wikijs:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-03-04T17:31:53.6878139-06:00"
+    created: "2021-03-04T17:35:52.3092473-06:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -95,4 +31,4 @@ entries:
     urls:
     - https://epochml.org/helm/wikijs-2.1.2.tgz
     version: 2.1.2
-generated: "2021-03-04T17:31:53.68024-06:00"
+generated: "2021-03-04T17:35:52.3063801-06:00"
