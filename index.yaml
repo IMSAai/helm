@@ -3,7 +3,7 @@ entries:
   wikijs:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-03-04T17:35:52.3092473-06:00"
+    created: "2021-03-04T17:37:59.7604704-06:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://epochml.org/helm/wikijs-2.1.2.tgz
     version: 2.1.2
-generated: "2021-03-04T17:35:52.3063801-06:00"
+generated: "2021-03-04T17:37:59.7577865-06:00"
