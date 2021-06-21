@@ -3,7 +3,37 @@ entries:
   wikijs:
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T16:58:48.9574033-05:00"
+    created: "2021-06-21T17:03:41.4288992-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.10.14
+    description: The most powerful and extensible open source Wiki software.
+    digest: d812cb7511a05a4d0ea88dec07755c9e63cd00919dfe47f702dbb9579da950d1
+    home: https://js.wiki/
+    icon: https://raw.githubusercontent.com/Requarks/wiki/dev/client/static/favicons/android-chrome-192x192.png
+    keywords:
+    - wiki
+    - documentation
+    - knowledge base
+    - docs
+    - reference
+    - editor
+    maintainers:
+    - email: dsingh@epochml.org
+      name: Dev Singh
+      url: https://students.imsa.edu/~dsingh
+    name: wikijs
+    sources:
+    - https://github.com/Requarks/wiki
+    type: application
+    urls:
+    - https://epochml.org/helm/wikijs-2.1.7.tgz
+    version: 2.1.7
+  - apiVersion: v2
+    appVersion: "2.5"
+    created: "2021-06-21T17:03:41.4248335-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -33,7 +63,7 @@ entries:
     version: 2.1.6
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T16:58:48.95504-05:00"
+    created: "2021-06-21T17:03:41.4228338-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -63,7 +93,7 @@ entries:
     version: 2.1.5
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T16:58:48.9520404-05:00"
+    created: "2021-06-21T17:03:41.4198298-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -91,4 +121,4 @@ entries:
     urls:
     - https://epochml.org/helm/wikijs-2.1.4.tgz
     version: 2.1.4
-generated: "2021-06-21T16:58:48.9480405-05:00"
+generated: "2021-06-21T17:03:41.4158302-05:00"
