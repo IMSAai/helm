@@ -21,8 +21,6 @@ spec:
     - hosts:
       - {{ .Values.ingress.hostname }}
       secretName: cloudflare
-  {{- end }}
-{{- end }}
   rules:
     - host: {{ .Values.ingress.hostname | quote }}
       http:
