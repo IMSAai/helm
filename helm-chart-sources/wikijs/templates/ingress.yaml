@@ -14,6 +14,7 @@ metadata:
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
+    external-dns.alpha.kubernetes.io/target: '177dcf15-4a59-476f-997e-a5d05a0f159b.cfargotunnel.com'
   {{- end }}
 spec:
 {{- if .Values.ingress.tls }}
