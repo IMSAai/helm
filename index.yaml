@@ -1,9 +1,41 @@
 apiVersion: v1
 entries:
   wikijs:
+  - annotations:
+      category: Wiki
+    apiVersion: v2
+    appVersion: "2.5"
+    created: "2021-06-21T20:13:09.0247347-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.10.14
+    description: The most powerful and extensible open source Wiki software.
+    digest: 07362dd3eebcc841245e3b44a18106ddffe429f48321f33e93ead9d5027c887b
+    home: https://js.wiki/
+    icon: https://raw.githubusercontent.com/Requarks/wiki/dev/client/static/favicons/android-chrome-192x192.png
+    keywords:
+    - wiki
+    - documentation
+    - knowledge base
+    - docs
+    - reference
+    - editor
+    maintainers:
+    - email: dsingh@epochml.org
+      name: Dev Singh
+      url: https://students.imsa.edu/~dsingh
+    name: wikijs
+    sources:
+    - https://github.com/Requarks/wiki
+    type: application
+    urls:
+    - https://epochml.org/helm/wikijs-2.1.10.tgz
+    version: 2.1.10
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T17:12:38.35856-05:00"
+    created: "2021-06-21T20:13:09.0437354-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -33,7 +65,7 @@ entries:
     version: 2.1.9
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T17:12:38.3555599-05:00"
+    created: "2021-06-21T20:13:09.0397353-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -63,7 +95,7 @@ entries:
     version: 2.1.8
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T17:12:38.3535602-05:00"
+    created: "2021-06-21T20:13:09.0367354-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -93,7 +125,7 @@ entries:
     version: 2.1.7
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T17:12:38.3495641-05:00"
+    created: "2021-06-21T20:13:09.0337348-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -123,7 +155,7 @@ entries:
     version: 2.1.6
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T17:12:38.3475647-05:00"
+    created: "2021-06-21T20:13:09.0317344-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -153,7 +185,7 @@ entries:
     version: 2.1.5
   - apiVersion: v2
     appVersion: "2.5"
-    created: "2021-06-21T17:12:38.3455474-05:00"
+    created: "2021-06-21T20:13:09.0287341-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -181,4 +213,4 @@ entries:
     urls:
     - https://epochml.org/helm/wikijs-2.1.4.tgz
     version: 2.1.4
-generated: "2021-06-21T17:12:38.3415475-05:00"
+generated: "2021-06-21T20:13:09.0217338-05:00"
